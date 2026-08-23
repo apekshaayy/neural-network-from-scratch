@@ -6,7 +6,7 @@ A 2-layer neural network built entirely with NumPy trained to classify handwritt
 
 This project implements forward propagation, backpropagation, and gradient descent by hand to understand what's actually happening under the hood of a neural network. It trains on the classic MNIST dataset (784 input pixels → hidden layer → 10 output classes).
 
-**Final accuracy:** `~82.19%` on the training set, `84.29%` on the test set *(fill in your numbers)*
+**Final accuracy:** `~82.19%` on the training set, `84.29%` on the test set.
 
 ## Architecture
 
