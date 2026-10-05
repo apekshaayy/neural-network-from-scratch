@@ -124,6 +124,12 @@ Core components (model, LoRA layer, selection score, consistency loss, adaptatio
 
 ## What I Learned / Debugged (so far)
 
+- `10 epochs` <br> <img width="1067" height="677" alt="image" src="https://github.com/user-attachments/assets/d54038e3-6167-405e-83c3-5603420fbd04" />
+
+- `5000 epochs` <br><img width="1057" height="677" alt="image" src="https://github.com/user-attachments/assets/d34f32b1-df32-4f90-9d57-a4fd8612f0da" />
+- `1000 epochs` <br><img width="1067" height="662" alt="image" src="https://github.com/user-attachments/assets/a365228c-1aff-4ef8-a2d4-b60930322315" />
+
+
 - `torch.no_grad()` vs. setting `requires_grad = False` are not interchangeable — the latter permanently disables gradients on whatever parameters it touches, which silently broke LoRA training when first used inside `selection_score`.
 - ReLU networks extrapolate as a fixed linear function once their active units stop changing outside the training range — this is *why* the un-adapted baseline flattens on the OOD test range, not a bug.
 - Zero-initializing LoRA's `B` matrix (not `torch.empty`, which gives uninitialized memory) is essential so the adapted model starts identical to the pretrained base model.
