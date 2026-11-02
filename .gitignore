@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# MNIST dataset
+data/
+
+# Model weights
+mnist_bn.pt
+
+# Environment
+.env
