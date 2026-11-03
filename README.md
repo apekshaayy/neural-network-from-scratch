@@ -1,5 +1,10 @@
 https://mnsit-digit-recognizer-in-real-time-using-tent.streamlit.app/ (TENT MNIST) 
 
+## Index
+- Neural Network from Scratch: MNIST Digit Classifier
+- Test Time Learning (TTL): Function Extrapolation with LoRA
+- MNIST Test Time Adaptation using TENT
+
 # Neural Network from Scratch: MNIST Digit Classification
 
 A 2-layer neural network built entirely with NumPy trained to classify handwritten digits from the MNIST dataset. Neither Tensorflow nor PyTorch was used in this project.
