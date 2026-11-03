@@ -1,3 +1,5 @@
+https://mnsit-digit-recognizer-in-real-time-using-tent.streamlit.app/ (TENT MNIST) 
+
 # Neural Network from Scratch: MNIST Digit Classification
 
 A 2-layer neural network built entirely with NumPy trained to classify handwritten digits from the MNIST dataset. Neither Tensorflow nor PyTorch was used in this project.
